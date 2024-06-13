@@ -5,3 +5,4 @@ if (userAuthed) {
   console.log("welcome");
 }
 const btn = document.getElementById("bid");
+btn.innerHTML = "Click Me";
