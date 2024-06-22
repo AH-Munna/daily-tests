@@ -6,3 +6,4 @@ if (userAuthed) {
 }
 const btn = document.getElementById("bid");
 btn.innerHTML = "Click Me";
+console.log(btn);
