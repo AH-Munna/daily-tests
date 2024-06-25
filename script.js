@@ -9,4 +9,5 @@ btn.innerHTML = "Click Me";
 console.log(btn);
 fetch("https://api.chucknorris.io/jokes/random").then(res=> {
   console.log(res);
+  return res.json();
 });
