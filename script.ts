@@ -16,3 +16,10 @@ fetch("https://api.chucknorris.io/jokes/random")
     const joke = res.value;
     console.log(joke);
   });
+let a = 0;
+while(true) {
+  if (a>10) {
+    break;
+  }
+  a++;
+}
