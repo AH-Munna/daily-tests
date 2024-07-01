@@ -21,5 +21,8 @@ while(true) {
   if (a>10) {
     break;
   }
+  if (a%2) {
+    console.log("I am at: ", a);
+  }
   a++;
 }
