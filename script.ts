@@ -6,6 +6,7 @@ if (userAuthed) {
 // const btn = document.getElementById("bid");
 // btn.innerHTML = "Click Me";
 // console.log(btn);
+let jokes = []
 fetch("https://api.chucknorris.io/jokes/random")
   .then((res) => {
     // console.log(res);
@@ -14,6 +15,7 @@ fetch("https://api.chucknorris.io/jokes/random")
   .then((res) => {
     console.log(res);
     const joke = res.value;
+    jokes.append(joke);
     console.log(joke);
   });
 let a = 0;
