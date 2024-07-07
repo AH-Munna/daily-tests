@@ -1,1 +1,1 @@
-fetch("https://example.com");
+fetch("https://example.com").then(res=> res.json());
