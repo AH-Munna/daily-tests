@@ -28,3 +28,4 @@ while(true) {
   }
   a++;
 }
+const hello = world;
