@@ -29,3 +29,4 @@ while(true) {
   a++;
 }
 const hello = "world";
+const world = "hello";
