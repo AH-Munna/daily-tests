@@ -30,3 +30,40 @@ while(true) {
 }
 const hello = "world";
 const world = "hello";
+
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+// An example of using the factorial function
+console.log(factorial(5)); // Output: 120
+
+// A function to reverse a string
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+// An example of using the reverseString function
+console.log(reverseString('hello')); // Output: 'olleh'
+
+// A function to check if a number is prime
+function isPrime(num) {
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return   
+ true;
+}
+
+// An example of using the isPrime function
+console.log(isPrime(7)); // Output: true
+console.log(isPrime(9)); // Output: false
