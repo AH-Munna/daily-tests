@@ -65,5 +65,5 @@ function isPrime(num) {
 }
 
 // An example of using the isPrime function
-console.log(isPrime(8)); // Output: true
+console.log(isPrime(10)); // Output: true
 console.log(isPrime(9)); // Output: false
